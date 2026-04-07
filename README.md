@@ -8,7 +8,7 @@
 ## Overview
 This project simulates a real-world Anti-Money Laundering (AML) risk scoring and alert triage system using a rules-based model, enhanced with data visualisation to support risk prioritisation and decision-making.
 
-It demonstrates how financial institutions identify, score, and prioritise high-risk customers based on transaction behaviour, customer profile, and regulatory risk indicators.
+It demonstrates how financial institutions identify, score, and prioritise high-risk customers based on transaction behaviour, customer profiles, and regulatory risk indicators.
 
 ---
 
@@ -19,7 +19,7 @@ The objective of this project is to:
 - Classify alerts into High, Medium, and Low risk categories  
 - Prioritise alerts for investigation  
 - Simulate real-world transaction monitoring workflows  
-- Provide analytical insights into portfolio risk distribution  
+- Provide analytical insights into portfolio-level risk distribution  
 
 ---
 
@@ -73,7 +73,7 @@ This reflects how AML investigation teams prioritise alerts in real-world operat
 Provides a portfolio-level view of customer segmentation across risk categories, enabling identification of high-risk populations requiring immediate attention.
 
 ### Risk Score Distribution
-Shows the distribution of risk scores across customers, highlighting clustering of high-risk cases and supporting threshold calibration and prioritisation strategies.
+Shows how risk scores are distributed across customers, highlighting clustering of high-risk cases and supporting threshold calibration and prioritisation strategies.
 
 ---
 
@@ -81,7 +81,7 @@ Shows the distribution of risk scores across customers, highlighting clustering 
 - Successfully categorised customers into High, Medium, and Low risk segments  
 - Enabled prioritisation of high-risk alerts for immediate investigation  
 - Provided portfolio-level visibility of risk distribution through data visualisation  
-- Demonstrated how rules-based models can be enhanced with analytics for better decision-making  
+- Demonstrated how rules-based models can be enhanced with analytics for improved decision-making  
 
 ---
 
@@ -98,7 +98,7 @@ This project demonstrates how data-driven approaches can:
 ## Operational Considerations
 Rules-based systems may generate false positives and lack adaptability.
 
-In real-world applications, thresholds and scoring weights would be calibrated using historical data to balance detection accuracy and operational efficiency.
+In real-world applications, thresholds and scoring weights would be calibrated using historical data to balance detection effectiveness and operational efficiency.
 
 ---
 
