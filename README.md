@@ -9,28 +9,28 @@ It demonstrates how financial institutions prioritise high-risk customers and tr
 
 ## Objective
 To design a system that:
-- Assigns risk scores to customers
-- Classifies alerts into High, Medium, and Low risk
-- Prioritises alerts for investigation
-- Simulates real-world transaction monitoring workflows
+- Assigns risk scores to customers  
+- Classifies alerts into High, Medium, and Low risk  
+- Prioritises alerts for investigation  
+- Simulates real-world transaction monitoring workflows  
 
 ---
 
 ## Key Features
-- Rules-based AML risk scoring model
-- Alert classification (High / Medium / Low)
-- Prioritised alert queue for investigation
-- Alert workflow simulation (Immediate Review / Review Soon / Queue)
-- Risk distribution analysis with visualisation
-- Scenario analysis for high-risk cases
-- Business and operational considerations (false positives, efficiency)
+- Rules-based AML risk scoring model  
+- Alert classification (High / Medium / Low)  
+- Prioritised alert queue for investigation  
+- Alert workflow simulation (Immediate Review / Review Soon / Queue)  
+- Risk distribution analysis with visualisation  
+- Scenario analysis for high-risk cases  
+- Business and operational considerations (false positives, efficiency)  
 
 ---
 
 ## Technologies Used
-- Python
-- Pandas
-- Matplotlib
+- Python  
+- Pandas  
+- Matplotlib  
 
 ---
 
@@ -49,29 +49,27 @@ This simulates a simplified transaction monitoring system used in financial inst
 ---
 
 ## Workflow Simulation
-The system generates alerts and assigns priority levels:
 
-| Risk Level | Priority |
-|-----------|--------|
-| High      | Immediate Review |
-| Medium    | Review Soon |
-| Low       | Queue |
+| Risk Level | Priority           |
+|------------|-------------------|
+| High       | Immediate Review  |
+| Medium     | Review Soon       |
+| Low        | Queue             |
 
 This reflects how AML investigation teams prioritise cases in real-world operations.
 
 ---
 
 ## Key Insights
-- High-risk customers are clearly identifiable based on multiple risk indicators
-- Risk scoring improves prioritisation of alerts
-- Enables better allocation of investigation resources
-- Provides visibility into customer risk distribution
+- High-risk customers are clearly identifiable based on multiple risk indicators  
+- Risk scoring improves prioritisation of alerts  
+- Enables better allocation of investigation resources  
+- Provides visibility into customer risk distribution  
 
 ---
 
 ## Business Impact
 This system demonstrates how data-driven approaches can:
-
 - Reduce false positives in transaction monitoring  
 - Improve investigator productivity  
 - Enhance risk visibility across portfolios  
@@ -80,19 +78,20 @@ This system demonstrates how data-driven approaches can:
 ---
 
 ## Operational Considerations
-Rules-based systems may generate false positives.  
-In practice, thresholds and weights would be calibrated using historical data to balance detection accuracy and operational efficiency.
+Rules-based systems may generate false positives.
+
+In practice, thresholds and scoring weights would be calibrated using historical data to balance detection accuracy and operational efficiency.
 
 ---
 
 ## Future Enhancements
-- Machine learning models (classification, anomaly detection)
-- Integration with real-time transaction data
-- Automated alert decisioning using AI
-- Dashboard for monitoring alerts and KPIs
+- Machine learning models (classification, anomaly detection)  
+- Integration with real-time transaction data  
+- Automated alert decisioning using AI  
+- Dashboard for monitoring alerts and KPIs  
 
 ---
 
 ## Author
-Farzean Hassim  
+**Farzean Hassim**  
 Financial Crime Risk & Data Analytics
