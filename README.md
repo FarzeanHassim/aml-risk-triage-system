@@ -1,21 +1,25 @@
+# AML Risk Scoring & Alert Triage System (Python)
+
 ## 🔗 Project Demo
 [View Notebook](./aml_risk_triage.ipynb)
 
-# AML Risk Scoring & Alert Triage System (Python)
+---
 
 ## Overview
-This project simulates an end-to-end Anti-Money Laundering (AML) alert triage system using a rules-based risk scoring model.
+This project simulates a real-world Anti-Money Laundering (AML) risk scoring and alert triage system using a rules-based model, enhanced with data visualisation to support risk prioritisation and decision-making.
 
-It demonstrates how financial institutions prioritise high-risk customers and transactions by assigning risk scores based on key indicators such as transaction behaviour, customer profile, and regulatory risk factors.
+It demonstrates how financial institutions identify, score, and prioritise high-risk customers based on transaction behaviour, customer profile, and regulatory risk indicators.
 
 ---
 
 ## Objective
-To design a system that:
-- Assigns risk scores to customers  
-- Classifies alerts into High, Medium, and Low risk  
-- Prioritises alerts for investigation  
-- Simulates real-world transaction monitoring workflows  
+The objective of this project is to:
+
+- Assign risk scores to customers based on AML risk indicators  
+- Classify alerts into High, Medium, and Low risk categories  
+- Prioritise alerts for investigation  
+- Simulate real-world transaction monitoring workflows  
+- Provide analytical insights into portfolio risk distribution  
 
 ---
 
@@ -23,8 +27,8 @@ To design a system that:
 - Rules-based AML risk scoring model  
 - Alert classification (High / Medium / Low)  
 - Prioritised alert queue for investigation  
-- Alert workflow simulation (Immediate Review / Review Soon / Queue)  
-- Risk distribution analysis with visualisation  
+- Risk level distribution analysis (bar chart)  
+- Risk score distribution analysis (histogram)  
 - Scenario analysis for high-risk cases  
 - Business and operational considerations (false positives, efficiency)  
 
@@ -53,45 +57,64 @@ This simulates a simplified transaction monitoring system used in financial inst
 
 ## Workflow Simulation
 
-| Risk Level | Priority           |
-|------------|-------------------|
-| High       | Immediate Review  |
-| Medium     | Review Soon       |
-| Low        | Queue             |
+| Risk Level | Priority |
+|-----------|---------|
+| High      | Immediate Review |
+| Medium    | Review Soon |
+| Low       | Queue |
 
-This reflects how AML investigation teams prioritise cases in real-world operations.
+This reflects how AML investigation teams prioritise alerts in real-world operations.
 
 ---
 
-## Key Insights
-- High-risk customers are clearly identifiable based on multiple risk indicators  
-- Risk scoring improves prioritisation of alerts  
-- Enables better allocation of investigation resources  
-- Provides visibility into customer risk distribution  
+## Risk Analytics & Visualisation
+
+### Risk Level Distribution
+Provides a portfolio-level view of customer segmentation across risk categories, enabling identification of high-risk populations requiring immediate attention.
+
+### Risk Score Distribution
+Shows the distribution of risk scores across customers, highlighting clustering of high-risk cases and supporting threshold calibration and prioritisation strategies.
+
+---
+
+## Key Results
+- Successfully categorised customers into High, Medium, and Low risk segments  
+- Enabled prioritisation of high-risk alerts for immediate investigation  
+- Provided portfolio-level visibility of risk distribution through data visualisation  
+- Demonstrated how rules-based models can be enhanced with analytics for better decision-making  
 
 ---
 
 ## Business Impact
-This system demonstrates how data-driven approaches can:
+This project demonstrates how data-driven approaches can:
+
 - Reduce false positives in transaction monitoring  
 - Improve investigator productivity  
-- Enhance risk visibility across portfolios  
+- Enhance risk visibility across customer portfolios  
 - Support compliance with AML/CFT regulatory expectations  
 
 ---
 
 ## Operational Considerations
-Rules-based systems may generate false positives.
+Rules-based systems may generate false positives and lack adaptability.
 
-In practice, thresholds and scoring weights would be calibrated using historical data to balance detection accuracy and operational efficiency.
+In real-world applications, thresholds and scoring weights would be calibrated using historical data to balance detection accuracy and operational efficiency.
 
 ---
 
 ## Future Enhancements
-- Machine learning models (classification, anomaly detection)  
-- Integration with real-time transaction data  
+- Integration of machine learning models (e.g. logistic regression)  
+- Real-time transaction monitoring capability  
 - Automated alert decisioning using AI  
-- Dashboard for monitoring alerts and KPIs  
+- Interactive dashboard for monitoring alerts and KPIs  
+
+---
+
+## How to Run
+
+1. Clone the repository  
+2. Open `aml_risk_triage.ipynb` in Jupyter Notebook  
+3. Run all cells to simulate the AML risk scoring and alert triage workflow  
 
 ---
 
