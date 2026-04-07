@@ -9,6 +9,11 @@ It reflects how traditional financial institutions prioritise alerts for investi
 
 ---
 
+## 📂 Access Notebook
+👉 [View Notebook on GitHub](https://github.com/FarzeanHassim/aml-risk-triage-system/blob/main/aml_risk_triage.ipynb)
+
+---
+
 ## 🎯 Objective
 - Assign risk scores based on key AML risk factors  
 - Classify alerts into High, Medium, and Low risk  
