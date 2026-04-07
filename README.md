@@ -1,7 +1,7 @@
 # 🔍 AML Risk Scoring & Alert Triage System
 
 ## 📌 Overview
-This simulates a Level 1 transaction monitoring triage system used in financial institutions to prioritise alerts before escalation.
+This simulates a Level 1 transaction monitoring triage system used in financial institutions to prioritise alerts before escalation to investigation teams.
 
 This project simulates a rule-based AML transaction monitoring system that assigns risk scores to customers based on predefined risk indicators.
 
@@ -75,6 +75,13 @@ Applicable to:
 - Rules-based approach does not adapt to new patterns  
 - May generate false positives  
 - Requires periodic recalibration of thresholds and weights  
+
+---
+
+## 💼 Business Impact
+- Improves prioritisation of high-risk alerts  
+- Enables efficient allocation of investigation resources  
+- Reduces alert backlog in transaction monitoring systems
 
 ---
 
