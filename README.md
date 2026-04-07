@@ -1,3 +1,6 @@
+## 🔗 Project Demo
+[View Notebook](./aml_risk_triage.ipynb)
+
 # AML Risk Scoring & Alert Triage System (Python)
 
 ## Overview
