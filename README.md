@@ -1,9 +1,12 @@
 # 🔍 AML Risk Scoring & Alert Triage System
 
 ## 📌 Overview
-This project simulates a Level 1 transaction monitoring triage system used in financial institutions to prioritise alerts before escalation to investigation teams.
 
-It assigns risk scores to customers based on predefined AML risk indicators, reflecting how traditional rule-based systems classify and prioritise alerts for review.
+This project simulates a rules-based AML transaction monitoring decisioning engine used in Level 1 alert triage.
+
+It combines risk scoring, classification, and alert prioritisation to replicate how financial institutions identify and prioritise high-risk cases before escalation to investigation teams.
+
+The system demonstrates how structured risk indicators and decision logic can optimise alert handling and improve operational efficiency in transaction monitoring workflows.
 
 ---
 
@@ -19,24 +22,31 @@ It assigns risk scores to customers based on predefined AML risk indicators, ref
 
 ---
 
-## ⚙️ Methodology
-1. Define risk indicators:
-   - Transaction amount  
-   - Transaction frequency  
-   - PEP status  
-   - Sanctions hits  
-   - Country risk  
-   - Account age  
+## ⚙️ Risk Framework
 
-2. Assign weighted scores to each risk factor  
+The system applies a weighted risk scoring model based on key AML risk indicators:
 
-3. Calculate total risk score per customer  
+- Customer risk (PEP status, sanctions exposure)
+- Transaction behaviour (amount, frequency)
+- Geographic risk (high-risk jurisdictions)
+- Account characteristics (account age)
 
-4. Classify alerts:
-   - High Risk  
-   - Medium Risk  
-   - Low Risk  
+Each factor contributes to an overall risk score, reflecting how financial institutions assess and prioritise financial crime risk.
 
+---
+
+## 🧠 System Architecture
+
+This project simulates a simplified AML monitoring pipeline:
+
+1. Data ingestion (transaction & customer data)  
+2. Risk scoring engine  
+3. Risk classification  
+4. Alert generation  
+5. Alert prioritisation  
+6. Investigator workflow  
+
+This mirrors real-world transaction monitoring systems used in financial institutions.
 ---
 
 ## 📊 Key Output
@@ -48,9 +58,14 @@ It assigns risk scores to customers based on predefined AML risk indicators, ref
 ---
 
 ## 🧠 Key Insight
-Rule-based systems are simple and explainable but may generate large volumes of alerts and lack adaptability.
 
-This creates opportunities for optimisation using machine learning (see Project 2).
+Rules-based systems provide strong explainability and are widely used in AML operations, but they face key limitations:
+
+- Static thresholds may not capture evolving financial crime patterns  
+- High alert volumes can lead to investigator fatigue  
+- Limited adaptability compared to machine learning approaches  
+
+This highlights the need for hybrid or ML-driven optimisation, which is explored in subsequent projects.
 
 ---
 
@@ -86,6 +101,18 @@ Applicable to:
 - Improves prioritisation of high-risk alerts  
 - Enables efficient allocation of investigation resources  
 - Reduces alert backlog in transaction monitoring systems
+
+---
+
+## ⚙️ Decisioning Logic
+
+The system translates risk scores into actionable alert priorities:
+
+- High Risk → Immediate Review  
+- Medium Risk → Review Soon  
+- Low Risk → Queue  
+
+This reflects how transaction monitoring systems prioritise alerts to ensure that high-risk cases are investigated promptly while optimising resource allocation.
 
 ---
 
