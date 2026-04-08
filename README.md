@@ -8,6 +8,8 @@ It combines risk scoring, classification, and alert prioritisation to replicate 
 
 The system demonstrates how structured risk indicators and decision logic can optimise alert handling and improve operational efficiency in transaction monitoring workflows.
 
+Supports Level 1 triage before escalation to Level 2 investigation teams.
+
 ---
 
 ## 📂 Access Notebook
@@ -52,7 +54,7 @@ This mirrors real-world transaction monitoring systems used in financial institu
 ## 📊 Key Output
 - Risk scoring model for customer profiling  
 - Alert classification based on thresholds  
-- Prioritised investigation queue
+- Prioritised investigation queue based on risk-driven decisioning
 - Supports prioritised review before escalation to Level 2 investigations.
 
 ---
@@ -101,6 +103,7 @@ Applicable to:
 - Improves prioritisation of high-risk alerts  
 - Enables efficient allocation of investigation resources  
 - Reduces alert backlog in transaction monitoring systems
+- Enables risk-based prioritisation aligned with AML/CFT regulatory expectations
 
 ---
 
